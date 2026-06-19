@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio Player</title>
+
+<style>
+body{
+    background:#0d0d0d;
+    color:white;
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    margin:0;
+}
+
+.player{
+    width:90%;
+    max-width:600px;
+    background:#151515;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 30px rgba(255,0,0,.2);
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+p{
+    color:#aaa;
+    margin-bottom:20px;
+}
+
+audio{
+    width:100%;
+}
+
+a{
+    color:#ff4444;
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<div class="player">
+    <h1>Revolution</h1>
+    <p>The Demo</p>
+
+    <audio controls>
+        <source src="Revolution.wav" type="audio/mpeg">
+        Your browser does not support audio playback.
+    </audio>
+
+    <br><br>
+
+    <a href="index.html">← Back to Home</a>
+</div>
+
+</body>
+</html>
